@@ -1,0 +1,113 @@
+/* chat-interface  */
+
+/* components/ChatInterface.module.css */
+
+.chat-container {
+    background-color: #ffffff;
+    width: 75%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  .chat-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  
+  .doctor-profile {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .doctor-name {
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .chat-body {
+    padding: 15px;
+    flex: 1;
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-message {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+  }
+  
+  .doctor-message {
+    background-color: #e6f7e6;
+    align-self: flex-start;
+  }
+  
+  .user-message {
+    background-color: #f1f1f1;
+    align-self: flex-end;
+  }
+  
+  .chat-footer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #e6e6e6;
+  }
+  
+  .chat-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+  
+  .send-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .action-button {
+    background-color: #f1f1f1;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .book-appointment {
+    background-color: #007bff;
+    color: #ffffff;
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0);
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(235, 235, 235, 0.265);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.155);
+  }
+  }
